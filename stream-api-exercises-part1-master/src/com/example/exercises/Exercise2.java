@@ -1,0 +1,18 @@
+package com.example.exercises;
+
+import java.util.Collection;
+import java.util.stream.Collectors;
+
+import com.example.dao.CountryDao;
+import com.example.dao.InMemoryWorldDao;
+
+
+public class Exercise2 {
+	private static final CountryDao countryDao = InMemoryWorldDao.getInstance();
+
+	public static void main(String[] args) {
+		// Find the most populated city of each continent
+
+	}
+
+}
